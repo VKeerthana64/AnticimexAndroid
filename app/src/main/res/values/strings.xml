@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Surveyor app</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="something_went_wrong">Something went wrong. Please try again</string>
+    <string name="exit">Repeat this action to exit app</string>
+
+    <string name="err_internet">It seems like you are not connected to the internet. Please check your connection.</string>
+    <string name="err_internet_title">Network connectivity</string>
+    <string name="login">Login</string>
+    <string name="hint_email">Email Id</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_imei">IMEI</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="authenticating">Authenticating...</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="permission_title">Need Permissions</string>
+    <string name="permission_msg">This app needs permission to use some features. You can grant them in app settings.</string>
+    <string name="go_to_settings">Go to settings</string>
+    <string name="hint_username">Username</string>
+    <string name="logout">Logout</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="dont_have_an_account">Don\'t have an account?</string>
+    <string name="sign_in_with">Or Sign in with</string>
+    <string name="signin">Sign In</string>
+    <string name="hint_mobile">Mobile</string>
+    <string name="signup">Sign Up</string>
+
+    <string name="errUsernameRequired">Enter username</string>
+    <string name="errPasswordRequired">Enter password</string>
+    <string name="attendance">Attendance</string>
+    <string name="jobs">Jobs</string>
+    <string name="reporting_stats">Reporting Statistics</string>
+    <string name="profile">Profile</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="clock_out">Clock Out</string>
+    <string name="your_attendance_mark_success">Your attendance is marked successfully</string>
+    <string name="processing_image">Processing image please wait...</string>
+    <string name="attendance_report">Attendance Report</string>
+    <string name="no_data_available">No data available</string>
+    <string name="assign">Assign</string>
+    <string name="reassign">Reassign</string>
+    <string name="service_date">Service Date</string>
+    <string name="client_name">Client Name</string>
+    <string name="assigned_to">Assigned to</string>
+    <string name="not_assigned_yet">Not assigned yet</string>
+
+    <string name="total_reports">Total Reports</string>
+    <string name="total_ongoing">Total Ongoing</string>
+    <string name="total_submitted">Total Submitted</string>
+    <string name="reporting_statistics">REPORTING STATISTICS</string>
+    <string name="show_all_jobs">Show All Jobs</string>
+    <string name="search">SEARCH</string>
+    <string name="service_report">Service Report</string>
+    <string name="help">Help ( ? )  </string>
+    <string name="close">CLOSE</string>
+    <string name="msg_job_completed">This job is already marked\nCOMPLETE but still contains draft service reports.\nPlease contact your coordinator immediately</string>
+    <string name="msg_service_report_back">Do you wish to go back to the previous screen and discard the changes?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="unable_to_get_latlong">Unable to get address for this location.</string>
+    <string name="cannot_fetch_location">Cannot fetch location. Please check if location is enabled.</string>
+    <string name="add">Add</string>
+    <string name="update">Update</string>
+    <string name="msg_service_report_delete">Are you sure, you want to delete this service report?</string>
+    <string name="imei">IMEI -</string>
+    <string name="Close">CLOSE</string>
+    <string name="address">Address -</string>
+    <string name="versionNo">Version No : %1$s</string>
+    <string name="saved_success">Saved successfully</string>
+    <string name="update_success">Updated successfully</string>
+    <string name="form_delete_success">Form deleted successfully</string>
+    <string name="form_saved_success">Form saved successfully</string>
+    <string name="cant_delete_uploaded_or_completed_form">You can\'t delete uploaded or completed form</string>
+    <string name="delete_form">Delete Form</string>
+    <string name="err_image_validation_title">Image validation</string>
+    <string name="err_image_validation_msg">you can\'t upload morethen 5 images</string>
+
+</resources>

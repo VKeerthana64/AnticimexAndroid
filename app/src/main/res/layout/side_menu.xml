@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="60dp"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/llMenuAttendance"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imgMenuAttendance"
+                android:layout_width="@dimen/side_menu"
+                android:layout_height="@dimen/side_menu"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_menu_attendance" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llMenuJob"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imgMenuJob"
+                android:layout_width="@dimen/side_menu"
+                android:layout_height="@dimen/side_menu"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_menu_job" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llMenuReporting"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imgMenuReporting"
+                android:layout_width="@dimen/side_menu"
+                android:layout_height="@dimen/side_menu"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_menu_reporting" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llMenuProfile"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imgMenuProfile"
+                android:layout_width="@dimen/side_menu"
+                android:layout_height="@dimen/side_menu"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_menu_profile" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llMenuLogout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imgMenuLogout"
+                android:layout_width="@dimen/side_menu"
+                android:layout_height="@dimen/side_menu"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_menu_logout" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>

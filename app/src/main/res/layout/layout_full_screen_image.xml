@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    <com.surveyor.app.surveyorapp.utils.TouchImageView
+        android:id="@+id/fullscreen_image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/pager_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="7dp"
+        android:layout_gravity="center"
+        android:text="@string/Close"
+        android:background="@drawable/bg_btn_dark"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</LinearLayout>
